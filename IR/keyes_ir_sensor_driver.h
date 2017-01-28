@@ -39,12 +39,12 @@ class KeyesIRSensorDriver : public IRSensorDriver
         return false;
     }
 
-    int value()
+    unsigned long value()
     {
         return lastValue;
     }
 
-    int lastValue = 0;
+    unsigned long lastValue = 0;
 
   private:
     IRrecv *irrecv = NULL;

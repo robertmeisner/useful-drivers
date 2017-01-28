@@ -26,7 +26,7 @@ public:
   * Returns last value received
   * @return int
   */
-  virtual int value() = 0;
+  virtual unsigned long value() = 0;
 
 protected:
 };

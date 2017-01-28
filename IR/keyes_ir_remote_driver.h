@@ -63,13 +63,13 @@ class KeyesIRRemoteDriver
     {
         return keyValue == KEY_HASH;
     }
-    int value()
+    unsigned long value()
     {
         return keyValue;
     }
 
   private:
-    int keyValue = 0;
+    unsigned long keyValue = 0;
     UsefulDrivers::KeyesIRSensorDriver *sensor = NULL;
 };
 };
