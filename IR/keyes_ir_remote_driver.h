@@ -8,11 +8,11 @@
  */
 #include "keyes_ir_sensor_driver.h"
 #define KEY_OK 0xE0E016E9
-#define KEY_HASH 0xFF52AD
-#define KEY_UP 0xC26BF044
-#define KEY_DOWN 0xC4FFB646
-#define KEY_LEFT 0x758C9D82
-#define KEY_RIGHT 0x53801EE8
+#define KEY_HASH 0xE0E0B44B
+#define KEY_UP 0xE0E006F9
+#define KEY_DOWN 0xE0E08679
+#define KEY_LEFT 0xE0E0A659
+#define KEY_RIGHT 0xE0E046B9
 
 
 namespace UsefulDrivers
